@@ -2,6 +2,8 @@ package br.com.fabricadeprogramador.persistencia.entidade;
 
 public class Usuario {
 	
+	
+
 	private Integer id;
 	private String nome;
 	private String login;
@@ -30,4 +32,9 @@ public class Usuario {
 	public void setSenha(String senha) {
 		this.senha = senha;
 	}
+	@Override
+	public String toString() {
+		return "Usuario [id=" + id + ", nome=" + nome + ", login=" + login + ", senha=" + senha + "]";
+	}
+	
 }
