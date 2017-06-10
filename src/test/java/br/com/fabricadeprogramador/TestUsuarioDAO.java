@@ -21,6 +21,9 @@ public class TestUsuarioDAO {
 		System.out.println(usuario);
 
 	}
+	/**
+	 * Método para buscar todos os registros
+	 */
 
 	private static void testBuscarTodos() {
 
