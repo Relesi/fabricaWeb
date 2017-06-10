@@ -12,7 +12,9 @@ public class ConexaoFactory {
 			return DriverManager.getConnection("jdbc:postgresql://localhost:5432/fabricaweb", "postgres", "123");
 		} catch (SQLException e) {
 
-			// relançando a exception
+			/**
+			 * Relançando exeção em caso de erro
+			 */
 
 			throw new RuntimeException(e);
 		}

@@ -9,8 +9,9 @@ public class TestUsuarioDAO {
 
 	public static void main(String[] args) {
 
-		// testSalvar();
-		testBuscarTodos();
+		//testSalvar();
+		//testBuscarTodos();
+		testCadastrar();
 	}
 
 	private static void testBuscarPorId() {
