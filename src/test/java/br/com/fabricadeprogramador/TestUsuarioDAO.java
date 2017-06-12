@@ -11,7 +11,22 @@ public class TestUsuarioDAO {
 
 		//testSalvar();
 		//testBuscarTodos();
-		testCadastrar();
+		//testCadastrar();
+		//testAlterar();
+		testAutenticar();
+	}
+
+	private static void testAutenticar() {
+
+
+		UsuarioDAO usuarioDAO = new UsuarioDAO();
+		Usuario usu = new Usuario();
+		usu.setLogin("jao");
+		usu.setSenha("123456");
+		
+		Usuario usuRetorno = usuarioDAO.autenticar(usu);
+		
+		System.out.println(usuRetorno);
 	}
 
 	private static void testBuscarPorId() {
