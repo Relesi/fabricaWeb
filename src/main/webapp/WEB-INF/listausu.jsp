@@ -8,6 +8,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Lista de Usuários</title>
+<link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" media="screen">
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <script type="text/javascript">
 	function confirmaExclusao(id) {
 		if (window.confirm('Tem certeza que deseja excluir')) {

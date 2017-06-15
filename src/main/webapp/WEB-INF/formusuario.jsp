@@ -4,6 +4,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Cadastro</title>
+<link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" media="screen">
 </head>
 <body>
 	<%
