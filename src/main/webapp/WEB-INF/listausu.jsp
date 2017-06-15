@@ -29,7 +29,7 @@
 		<tr>
 			<th>Id</th>
 			<th>Nome</th>
-			<th>Acção</th>
+			<th>Ação</th>
 		</tr>
 
 		<%
@@ -42,7 +42,7 @@
 				%>
 			</td>
 			<td><%=u.getNome()%></td>
-			<td><a href="javascript:confirmaExclusao(<%=u.getId()%>)">Excluir</a> | <a href="usucontroller.do?acao=alt&id=<%=u.getId() %>">Alterar</a> </td>
+			<td><a href="javascript:confirmaExclusao(<%=u.getId()%>)">Excluir</a> | <a href="usucontroller.do?acao=alt&id=<%=u.getId() %>">Alterar</a> |<a href="usucontroller.do?acao=cad">Novo</a>  </td>
 		</tr>
 		<%
 			}
